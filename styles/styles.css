@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #ffcccc;
+}
+
+.cabecera{
+    background-color: #ffff;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+.containers{
+    background-color: rgba(0,0,0,.85);
+    max-width: 330px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.div-botones{
+    margin-top: 30px;
+    height: 100px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.div-botones button {
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 0px;
+}
+
+.btn-xokas {
+    background-color: #FFFF99;
+}
+
+.btn-auron{
+    background-color: #CCFF66;
+}
+
+.btn-astro{
+    background-color: #CCFFFF;
+}
+
+.div-resultados{
+    margin-top: 5px;
+    border-radius: 0px 0px 12px 12px;
+    height: 640px;
+}
