@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>Song</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <header class="cabecera">Mejores play-list</header>
+    <header class="cabecera">
+        <div class="logo">
+            <h4>Song</h4>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a class="a-registro" href="">Registrate</a></li>
+                <li><a class="a-iniciar" href="">Iniciar sesion</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <div class="containers div-botones">
         <button id="btn-xokas" class="btn-xokas">Xokas</button>
         <button id="btn-auron" class="btn-auron">Auron-Play</button>
         <button id="btn-astro" class="btn-astro">Astro</button>
     </div>
+<a href="./assets/videos/auron.mp4"></a>
+    <div id="result" class="containers div-resultados"></div>  
 
-    <div class="containers div-resultados" id="div-resultados"></div>  
-
-    <script src="./main.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>

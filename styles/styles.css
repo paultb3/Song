@@ -5,11 +5,59 @@ body{
 }
 
 .cabecera{
+    display: flex;
+    justify-content: space-between;
     background-color: #ffff;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
-    text-align: center;
+}
+.logo h4{
+    padding: 0px;
+    margin-left: 20px;
+    margin-top:5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    margin: 0px 5px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    margin: 0px 5px;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.a-registro{
+    background-color: #007bff ;
+    color: #ffffff ;
+}
+.a-registro:hover{
+    background-color: #0056b3;
+}
+
+
+.a-iniciar{
+    background-color:#6c757d ;
+    color: #ffffff;
+}
+.a-iniciar:hover{
+    background-attachment: #5a6268;
 }
 
 .containers{
@@ -28,26 +76,42 @@ body{
 
 .div-botones button {
     margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 16px;
     border-radius: 8px;
     padding: 10px;
     border: 0px;
 }
 
+
 .btn-xokas {
     background-color: #FFFF99;
 }
-
 .btn-auron{
     background-color: #CCFF66;
 }
-
 .btn-astro{
     background-color: #CCFFFF;
+}
+
+
+.btn-xokas:hover{
+    background-color: #FFEB3B;
+}
+.btn-auron:hover{
+    background-color: #AEEA00;
+}
+.btn-astro:hover{
+    background-color: #80DEEA;
 }
 
 .div-resultados{
     margin-top: 5px;
     border-radius: 0px 0px 12px 12px;
-    height: 640px;
+    height: 580px;
+}
+
+.video{
+    border-radius: 12px;
 }
