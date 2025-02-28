@@ -1,6 +1,6 @@
 # 🎵 Song
 
-![Reproductor de Música](https://via.placeholder.com/800x400.png?text=Reproductor+de+M%C3%BAsica)
+![Reproductor de Música](./assets/img/view.png)
 
 ## 📌 Descripción
 Un reproductor de música gratuito desarrollado con tecnologías web modernas. Permite a los usuarios escuchar sus canciones favoritas sin necesidad de descargas ni suscripciones.
@@ -30,7 +30,7 @@ Un reproductor de música gratuito desarrollado con tecnologías web modernas. P
 3. Abre el archivo `index.html` en tu navegador o usa un servidor local.
 
 ## 🎬 Demo
-Puedes probar una versión en vivo aquí: [Enlace a la demo](https://tupagina.com/reproductor-musica)
+Puedes probar una versión en vivo aquí: [Enlace a la demo](https://paultb3.github.io/Song)
 
 ## 📌 Contribuciones
 ¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar el reproductor, siéntete libre de hacer un fork y enviar un pull request.
